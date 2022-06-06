@@ -2,7 +2,7 @@ function randomRGB() {
     r = Math.floor(Math.random() * 256);
     g = Math.floor(Math.random() * 256);
     b = Math.floor(Math.random() * 256);
-    return `rgb(${r},${g},${b})`
+    return `rgb(${r},0,${b})`
 }
 
 const letters = document.querySelectorAll('.letter');
